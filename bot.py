@@ -5,7 +5,7 @@ import telebot
 from telebot import types
 from telebot.types import Message
 
-token = '6377287085:AAElOAKNyIXqlX9ZA0xAvuK68CWcskm-umk'  # ЭТО ТОКЕН КОТОРЫЙ НАДО СКОПИРОВАТЬ ЧТОБЫ ПОЛУЧИТЬ ДОСТУП К ТЕЛЕГЕ БОТУ ЕГО НЕЛЬЗЯ ПОКАЗЫВАТЬ!!!
+token = 'token'  # ЭТО ТОКЕН КОТОРЫЙ НАДО СКОПИРОВАТЬ ЧТОБЫ ПОЛУЧИТЬ ДОСТУП К ТЕЛЕГЕ БОТУ ЕГО НЕЛЬЗЯ ПОКАЗЫВАТЬ!!!
 bot = telebot.TeleBot(token)
 users={}
 cnx=mysql.connector.connect(host='10.8.0.1',user='adm',password='1qaz@WSX12',database='weather_tracking_test')
